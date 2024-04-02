@@ -102,6 +102,44 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
+/* Hero page */
+.hero{
+    background: red;
+    height: 100vw;
+    width:100vw;
+    background-position: center;
+    padding: 1rem 2rem;
+}
+.hero__content{
+    padding: 2rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.hero__content h1{
+    font-size: clamp(2rem 4px 3rem);
+    padding:1rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+.hero__content p{
+    font-size: 1.4 rem;
+    color: grey;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.button{
+    background: yellow;
+    border-radius:2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: rgb(135,206,235);
+}
+.button:hover{
+    padding: 1.2rem 2.2rem;
+    border: solid 2px rgb(135,206,235);
+}
 /* Contact page */
 .Contacts{
     height: 120vh;
