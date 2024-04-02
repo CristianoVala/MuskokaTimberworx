@@ -53,8 +53,8 @@ html,body
     justify-content: space-between;
     align-items: center;
     position: relative;
-    outline:yellow;
-    outline-width: 0.3rem;
+    outline: solid yellow;
+    outline-width: 8px;
     outline-style: outset;
     text-align:center;
 }
