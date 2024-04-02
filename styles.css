@@ -164,8 +164,6 @@ html,body
 
 .Services{
     display:flex;
-    justify-content: center;
-    align-items:center;
     gap: 1rem;
     width: 100vw;
 }
@@ -188,6 +186,7 @@ html,body
     color:white;
     width: 30vw;
     background:rgb(25, 25, 112);
+    height: 40vw;
 }
 .service__content h1{
     text-align:center;
