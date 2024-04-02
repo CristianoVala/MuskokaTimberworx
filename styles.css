@@ -102,7 +102,6 @@ html,body
 }
 /* Contact page */
 .Contacts{
-    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0, 0.2));
     height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
