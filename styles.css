@@ -123,19 +123,16 @@ html,body
     padding:1rem;
 }
 @media screen and (max-width: 768px){
+    .hero{
+        flex-direction:column;
+    }
     .hero__img{
         width:50vw;
         height: 50vw;
         padding: 0.5rem;
     }
     .hero__content{
-        padding: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content:center;
-        text-align:center;
-        margin-right: 1rem;
+        margin:1rem 0rem;
     }
 }
 .hero__content{
