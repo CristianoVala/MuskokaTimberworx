@@ -108,9 +108,8 @@ html,body
 }
 /* Hero page */
 .hero{
-    background: red;
-    height: 100vw;
-    width:100vw;
+    background: ;
+    height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
     display: flex;
@@ -127,16 +126,15 @@ html,body
     text-align:center;
 }
 .hero__content h1{
-    font-size: clamp(3rem 4vw 6rem);
-    padding:1rem;
-    margin-bottom: 1rem;
+    font-size: clamp(3rem, 8vw, 7rem);
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
     color: black;
 }
 .hero__content p{
-    font-size: 1.4 rem;
+    font-size: clamp(1rem, 4vw, 2.5rem);
+    margin-bottom: 3rem; 
     color: grey;
-    padding: 1rem;
-    margin-bottom: 2rem;
 }
 .button{
     background: yellow;
