@@ -46,10 +46,10 @@ html,body
 }
 #check{display: none;}
 .navbar{
-    width: 100vw + 30px;
+    width: calc(100vw + 30px);
     background: rgb(135,206,235);
     height: 60px;
-    padding: 0.5rem calc((50vw - 1600px) / 2);
+    padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
     justify-content: space-between;
     align-items: center;
