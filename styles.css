@@ -135,6 +135,7 @@ html,body
     align-items:center;
     justify-content:center;
     text-align:center;
+    margin-right: 0.5rem;
 }
 .hero__content h1{
     font-size: clamp(3rem, 8vw, 7rem);
