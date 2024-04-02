@@ -12,7 +12,98 @@
     crossorigin="anonymous">
 </head>
 <body>
-
+<!--Navbar-->
+    <div class="navbar">
+        <div class="navbar__content">
+            <a href="#"><img class="Logo__img" src="./images/Logo.png" alt="Logo"/></a>
+            <div class="navbar__links">
+                <a href="#" class="navbar__link">Home</a>
+                <a href="#Services" class="navbar__link">Services</a>
+                <a href="#Gallery" class="navbar__link">Our Past Work</a>
+                <a href="#Reviews" class="navbar__link">Testimonials & References</a>
+                <a href="#About" class="navbar__link">About Us</a>
+                <a href="#Contacts" class="navbar__link">Contacts</a>
+            </div>
+        </div>
+    </div>
+    <!--Hero-->
+    <div class="hero" id="#">
+        <div class="hero__content">
+            <h1>Henry & Son Electrical</h1>
+            <p>Request A Quote Today</p>
+            <a href="#Contacts" class="button">Book Now</a>
+        </div>
+    </div>
+    <!--Services-->
+    <div class="Services" id="Services">
+    </div>
+    <!--Gallery-->
+    <div class="Gallery" id="Gallery">
+    </div>
+    <!--Reviews-->
+    <div class="Reviews" id="Reviews">
+    </div>
+    <!--About-->
+    <div class="About" id="About">
+    </div>
+    <!--Contacts-->
+    <div class="Contacts" id="Contacts">
+        <div class="email__content">
+            <h1>Contact Us Today</h1>
+            <p>Sign up now to receive a quote</p>
+            <div class="form__wrap">
+                <form target="_blank" action="" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="phone" name="phone" placeholder="Enter your phone number" required>
+                    <select id="service" class="form-control" name="subject" required>
+                      <option value="Select" type="placeholder"> --Select Your Use--</option>
+                      <option value="Commercial">Commercial</option>
+                      <option value="Residential">Residential</option>
+                    </select>
+                    <select id="service" class="form-control" name="message" required>
+                      <option value="Select" type="placeholder"> --Select Service--</option>
+                      <option value="Electrical Contraction">Electrical Contracting</option>
+                      <option value="EV charger installation">EV Charger Installation</option>
+                      <option value="Emergancy Electrical Services">Emergency Electrical Services</option>
+                     <option value="Solar Panel Installation">Solar Panel Installation</option>
+                    </select>
+                    <input id="service" class="form-control" name="Message" placeholder="Enter a short message detailing what you need">
+                    <button class="button" type="submit">Submit</button>
+               </form>
+            </div>
+         </div>
+    </div>
+    <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Henry & Son Electrical</h1>
+                <p>.</p>
+                <p id="phone">Phone Number</p>
+                <p id="email">Email</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="#Contacts" class="footer__link">Contact</a>
+                <a href="#Contacts" class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="#Contacts" class="footer__link">Instagram</a>
+                <a href="#Contacts" class="footer__link">Youtube</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href="#Services" class="footer__link">Pricing</a>
+                <a href="#Services" class="footer__link">Features</a>
+            </div>
+        </div>
+     <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    
    <script type="text/javascript">
         window.addEventListener('scroll', reveal);
 
