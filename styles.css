@@ -47,7 +47,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: blue;
+    background: rgb(0, 71, 171);
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -92,7 +92,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: blue;
+        background-color: rgb(0, 71, 171);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
@@ -141,7 +141,7 @@ html,body
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: blue;
+    color: rgb(0, 71, 171);
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
@@ -327,5 +327,5 @@ input [type=text], select{
     border-radius: 4px;
     margin-bottom: 1rem;
     color: black;
-    background: yellow;
+    background: rgb(255, 191, 0);
 }
