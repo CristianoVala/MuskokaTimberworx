@@ -166,6 +166,8 @@ html,body
     display:flex;
     gap: 1rem;
     width: 100vw;
+    height: 100vhl
+    margin: 2rem 0rem;
 }
 .service__card{
     display:flex;
