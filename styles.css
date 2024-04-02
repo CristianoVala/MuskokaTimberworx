@@ -174,18 +174,20 @@ html,body
     justify-content:center;
     align-itmes:center;
     flex-direction: column;
-    width:20vw;
+    width:30vw;
     margin:1rem 2rem;
+    height:80vh;
     background:rgb(25, 25, 112);
 }
 .service__img{
-    width: 20vw;
-    hegiht: 20vw
+    width: 30vw;
+    hegiht: 30vw
 }
 .service__content{
     padding:1rem;
     color:white;
-    width: 20vw;
+    width: 30vw;
+    background:rgb(25, 25, 112);
 }
 .service__content h1{
     text-align:center;
