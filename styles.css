@@ -164,9 +164,6 @@ html,body
 
 .Services{
     display:flex;
-    justify-content:center;
-    align-itmes:center;
-    gap:1rem;
 }
 .service__card{
     display:flex;
@@ -174,6 +171,7 @@ html,body
     align-itmes:center;
     flex-direction: column;
     width:20vw;
+    margin:1rem 2rem;
 }
 .service__img{
     width: 20vw;
