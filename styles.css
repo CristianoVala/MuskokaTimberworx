@@ -121,7 +121,6 @@ html,body
     width:40vw;
     height: 40vw;
     padding:1rem;
-    margin-right:1rem;
 }
 @media screen and (max-width: 768px){
     .hero__img{
@@ -130,7 +129,7 @@ html,body
     }
 }
 .hero__content{
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items:center;
