@@ -164,6 +164,8 @@ html,body
 
 .Services{
     display:flex;
+    width: 100vw;
+    margin:2rem 1rem;
 }
 .service__card{
     display:flex;
@@ -181,6 +183,8 @@ html,body
     padding:1rem;
     background:rgb(25, 25, 112)
     color:white;
+    height: 20vw;
+    width: 20vw;
 }
 .service__content h1{
     text-align:center;
