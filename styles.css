@@ -52,10 +52,10 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position:sticky;
+    top:-10px;
     outline: solid yellow;
-    outline-width: 8px;
-    outline-style: outset;
+    border: solid 15px yellow;
     text-align:center;
 }
 .navbar__logo{
