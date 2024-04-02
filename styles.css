@@ -46,7 +46,7 @@ html,body
 }
 #check{display: none;}
 .navbar{
-    width: calc(100vw + 30px);
+    width: 100vw;
     background: rgb(135,206,235);
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
@@ -54,12 +54,16 @@ html,body
     justify-content: space-between;
     align-items: center;
     position:sticky;
-    top:-15px;
-    outline: solid yellow;
-    border: solid 15px yellow;
+    top:0px;
     text-align:center;
-    margin-left:-15px;
     z-index:100;
+}
+.nav__bottom{
+    background:yellow;
+    height:15px;
+    position: sticky;
+    top:60px;
+    padding: 1rem;
 }
 .navbar__logo{
     color: white;
