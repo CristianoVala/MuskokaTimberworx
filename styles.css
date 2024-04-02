@@ -162,6 +162,38 @@ html,body
     border: solid 2px rgb(25, 25, 112);
 }
 
+.Services{
+    display:flex;
+    justify-content:center;
+    align-itmes:center;
+    gap:1rem;
+}
+.service__card{
+    display:flex;
+    justify-content:center;
+    align-itmes:center;
+    flex-direction: column;
+    width:20vw;
+}
+.service__img{
+    width: 20vw;
+    hegiht: 20vw
+}
+.service__content{
+    padding:1rem;
+    background:rgb(25, 25, 112)
+    color:white;
+}
+.service__content h1{
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom:0.8rem;
+}
+.service__content p{
+    padding:1rem;
+    font-size:1rem;
+}
+
 .review__container{
     position: relative;
     display: flex;
