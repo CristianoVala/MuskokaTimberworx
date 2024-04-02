@@ -58,6 +58,8 @@ html,body
     outline: solid yellow;
     border: solid 15px yellow;
     text-align:center;
+    margin-left:-15px;
+    z-index:100;
 }
 .navbar__logo{
     color: white;
