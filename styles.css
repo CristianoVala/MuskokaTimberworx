@@ -185,7 +185,6 @@ html,body
 .service__content{
     padding:1rem;
     color:white;
-    height: 20vw;
     width: 20vw;
 }
 .service__content h1{
