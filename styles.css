@@ -46,6 +46,7 @@ html,body
 }
 #check{display: none;}
 .navbar{
+    width: 100vw + 30px;
     background: rgb(135,206,235);
     height: 60px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
@@ -53,7 +54,7 @@ html,body
     justify-content: space-between;
     align-items: center;
     position:sticky;
-    top:-10px;
+    top:-15px;
     outline: solid yellow;
     border: solid 15px yellow;
     text-align:center;
