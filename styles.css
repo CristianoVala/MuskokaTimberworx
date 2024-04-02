@@ -60,7 +60,7 @@ html,body
 }
 .nav__bottom{
     background:yellow;
-    height:15px;
+    height:10px;
     position: sticky;
     top:60px;
     padding: 1rem;
