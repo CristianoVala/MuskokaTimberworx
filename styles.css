@@ -244,7 +244,7 @@ html,body
     scroll-snap-align: start;
 }
 .container #slider-img-2{
-  background-image: url("./images/Review 2.jpg");
+  background-image: url("./images/Review 2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ html,body
     scroll-snap-align: start;
 }
 .container #slider-img-3{
-  background-image: url("./images/Review 3.jpg");
+  background-image: url("./images/Review 3.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
