@@ -196,6 +196,7 @@ html,body
     color:white;
     width: 30vw;
     height: 40vh;
+    margin-bottom: 2rem;
 }
 .service__content h1{
     text-align:center;
