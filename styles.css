@@ -166,7 +166,7 @@ html,body
     display:flex;
     gap: 1rem;
     width: 100vw;
-    height: 100vhl
+    height: 100vh;
     margin: 2rem 0rem;
 }
 .service__card{
@@ -188,7 +188,7 @@ html,body
     color:white;
     width: 30vw;
     background:rgb(25, 25, 112);
-    height: 40vw;
+    height:80vh;
 }
 .service__content h1{
     text-align:center;
