@@ -188,6 +188,7 @@ html,body
     padding:1rem;
     color:white;
     width: 30vw;
+    margin-bottom: auto;
 }
 .service__content h1{
     text-align:center;
