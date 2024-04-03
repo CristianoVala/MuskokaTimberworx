@@ -172,7 +172,7 @@ html,body
     display:flex;
     gap: 1rem;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin-top: 2rem;
     margin-botton: 2rem;
 }
@@ -214,7 +214,7 @@ html,body
         justify-content: center;
         gap: 1rem;
         width: 100vw;
-        margin-bottom: 2rem;
+        height: 100%;
     }
     .service__card{
         width:80vw;
