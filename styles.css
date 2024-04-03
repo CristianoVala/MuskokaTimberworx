@@ -64,7 +64,7 @@ html,body
     position: sticky;
     top:60px;
     padding: 1rem;
-    z-index:100;
+    z-index:90;
 }
 .navbar__logo{
     color: white;
