@@ -209,9 +209,11 @@ html,body
 @media screen and (max-width: 900px){
     .Services{
         flex-direction: column;
+        align-items:center;
+        justify-content: center;
         gap: 1rem;
         width: 100vw;
-        height: 100vh;
+        margin-bottom: 2rem;
     }
     .service__card{
         width:80vw;
@@ -345,7 +347,7 @@ html,body
 .Gallery{
     padding: 1rem;
     margin-bottom: 1rem;
-    margin-top:0rem;
+    margin-top:1rem;
     position: relative;
 }
 
