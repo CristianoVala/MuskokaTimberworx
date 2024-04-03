@@ -183,12 +183,12 @@ html,body
 .service__img{
     width: 30vw;
     hegiht: 30vw
+    top:0px;
 }
 .service__content{
     padding:1rem;
     color:white;
     width: 30vw;
-    margin-bottom: auto;
 }
 .service__content h1{
     text-align:center;
