@@ -284,6 +284,48 @@ html,body
         height: 40vh;
     }
 }
+.services__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+    padding:2rem;
+    text-align: center;
+}
+.highlight{
+    width:100%;
+    height:100%;
+    padding:1rem;
+    border:solid 3px var(--blue);
+}
+.services__container h1{
+    color:var(--yellow);
+    font-size: clamp(1.5rem, 8vw, 2.5rem);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.service{
+    margin-bottom:1rem;
+    margin-top:1rem;
+    width: 50vw;
+    padding:1.5rem;
+    transition: 0.3s ease;
+}
+@media screen and (max-width: 768px){
+    .service{
+        width:100vw;
+    }
+    .info__container{
+        width:100vw;
+    }
+}
+.services__img{
+    width:250px;
+    padding: 1rem;
+    transition: 0.3s ease;
+}
 .review__container{
     position: relative;
     display: flex;
