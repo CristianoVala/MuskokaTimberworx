@@ -186,7 +186,7 @@ html,body
     margin: 1rem 0rem;
 }
 .warning{
-    background: rgba(17, 22, 56, 0.2);
+    background: rgba(17, 22, 56, 0.4);
     display:flex;
     flex-direction:column;
     justify-content:center;
