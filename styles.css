@@ -198,6 +198,7 @@ html,body
 .warning__content{
     display:flex;
     gap: 1rem;
+    padding: 1rem 2rem;
 }
 .warning__card{
     margin: 1rem 1rem;
