@@ -1,6 +1,7 @@
 :root{
     --yellow: rgb(209, 146, 50);
     --blue: rgb(17, 22, 56);
+}
 *{
     box-sizing: border-box;
     margin:0;
@@ -177,6 +178,50 @@ html,body
     margin: 1rem 0rem;
     color: var(--yellow);
     font-style:italic;
+}
+.header h2{
+    color: white;
+    font-size: 2rem;
+    padding:1rem;
+    text-align:center;
+    margin: 1rem 0rem;
+}
+.warning{
+    background: rgba(17, 22, 56, 0.2);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+    height: 100%;
+    margin: 2rem 0rem;
+}
+.warning__content{
+    display:flex;
+    gap: 1rem;
+}
+.warning__card{
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+.warning__card h1{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.warning__card p{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.warning__card b{
+    color: rgb(103, 115, 201);
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 900px){
+    .warning__content{
+        flex-direction:column;
+    }
 }
 .Services{
     display:flex;
