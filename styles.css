@@ -47,7 +47,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: rgb(25, 25, 112);
+    background: rgb(30, 25, 112);
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -59,7 +59,7 @@ html,body
     z-index:100;
 }
 .nav__bottom{
-    background:rgb(255, 191, 0);
+    background:rgb(255, 191, 5);
     height:10px;
     position: sticky;
     top:60px;
@@ -93,7 +93,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: rgb(25, 25, 112);
+        background-color: rgb(30, 25, 112);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
@@ -152,7 +152,7 @@ html,body
     color: grey;
 }
 .button{
-    background: rgb(255, 191, 0);
+    background: rgb(255, 191, 5);
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
@@ -160,13 +160,20 @@ html,body
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px rgb(25, 25, 112);
+    border: solid 2px rgb(30, 25, 112);
 }
 .header{
     font-size: 2rem;
     padding:1rem;
     text-align:center;
     margin: 1rem 0rem;
+}
+.header b{
+    font-size: 2rem;
+    padding:1rem;
+    text-align:center;
+    margin: 1rem 0rem;
+    color:rgb(255,191,5);
 }
 .Services{
     display:flex;
@@ -184,7 +191,7 @@ html,body
     width:30vw;
     margin:2rem 1rem;
     height: 100vh;
-    background:rgb(25, 25, 112);
+    background:rgb(30, 25, 112);
 }
 .service__img{
     width: 30vw;
@@ -303,7 +310,7 @@ html,body
     scroll-snap-align: start;
 }
 .container .button-holder .review-button{
-  background-color: rgb(25, 25, 112);
+  background-color: rgb(30, 25, 112);
   width:15px;
   height:15px;
   border-radius:15px;
@@ -411,7 +418,7 @@ form{
     border: none;
     margin-right: 1rem;
     border-radius: 2rem;
-    background:rgb(255, 191, 0);
+    background:rgb(255, 191, 5);
 }
 span{
     color:black;
@@ -548,5 +555,5 @@ input [type=text], select{
     border-radius: 2rem;
     margin-bottom: 1rem;
     color: black;
-    background: rgb(255, 191, 0);
+    background: rgb(255, 191, 5);
 }
