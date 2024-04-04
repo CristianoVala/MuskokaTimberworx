@@ -173,7 +173,6 @@ html,body
     margin: 1rem 0rem;
 }
 .header b{
-    padding:1rem;
     text-align:center;
     margin: 1rem 0rem;
     color: var(--yellow);
