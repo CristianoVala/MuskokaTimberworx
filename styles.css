@@ -177,6 +177,12 @@ html,body
     text-align:center;
     margin: 1rem 0rem;
 }
+.header h1{
+    font-size: 2rem;
+    padding:1rem;
+    text-align:center;
+    margin: 1rem 0rem;
+}
 .header b{
     text-align:center;
     margin: 1rem 0rem;
