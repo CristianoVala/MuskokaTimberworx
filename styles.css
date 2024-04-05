@@ -198,7 +198,7 @@ html,body
     margin: 1rem 0rem;
 }
 .warning{
-    background: rgba(17, 22, 56, 0.4), url("./images/warning.jpg");
+    background: rgba(17, 22, 56, 0.4),  url('./images/warning.jpg');
     display:flex;
     flex-direction:column;
     justify-content:center;
