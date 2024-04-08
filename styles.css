@@ -377,6 +377,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-2{
   background-image: url("./images/Review 2.png");
