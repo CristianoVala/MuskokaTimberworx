@@ -389,6 +389,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-3{
   background-image: url("./images/Review 3.png");
@@ -400,6 +401,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-4{
   background-image: url("./images/Review 4.jpg");
@@ -411,6 +413,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-5{
   background-image: url("./images/Review 5.jpg");
@@ -422,6 +425,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-6{
   background-image: url("./images/Review 6.jpg");
@@ -433,6 +437,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-7{
   background-image: url("./images/Review 7.webp");
@@ -444,6 +449,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container #slider-img-8{
   background-image: url("./images/Review 8.jpg");
@@ -455,6 +461,7 @@ html,body
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    margin: 0rem 1rem;
 }
 .container .button-holder .review-button{
   background-color: var(--blue);
