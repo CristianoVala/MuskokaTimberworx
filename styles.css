@@ -411,6 +411,50 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
+.container #slider-img-5{
+  background-image: url("./images/Review 5.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.container #slider-img-6{
+  background-image: url("./images/Review 6.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.container #slider-img-7{
+  background-image: url("./images/Review 7.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.container #slider-img-8{
+  background-image: url("./images/Review 8.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
 .container .button-holder .review-button{
   background-color: var(--blue);
   width:15px;
