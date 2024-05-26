@@ -522,7 +522,7 @@ html,body
     margin-bottom: 1rem;
     font-size: clamp(1rem, 5vw, 3rem);
     padding: 0 1rem;
-    color:black;
+    color: black;
 }
 .email__content p{
     text-align: center;
@@ -542,7 +542,8 @@ form{
     border: none;
     margin-right: 1rem;
     border-radius: 2rem;
-    background:var(--yellow);
+    background:white;
+    color: black;
 }
 span{
     color:black;
