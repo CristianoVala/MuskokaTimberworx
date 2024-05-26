@@ -51,7 +51,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: var(--blue);
+    background: rgba(0,0,0,0.3);
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -66,7 +66,7 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:var(--yellow);
+    background: rgba(0,0,0,0.3);
     height:10px;
     position: sticky;
     top:60px;
@@ -102,7 +102,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: var(--blue);
+        background-color: rgba(0,0,0,0.3);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
@@ -118,8 +118,9 @@ html,body
 }
 /* Hero page */
 .hero{
-    background: ;
-    height: 90vh;
+    background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
+    url('./images/Hero.png');
+    height: 100vh;
     background-position: center;
     padding: 1rem 2rem;
     display: flex;
@@ -161,15 +162,15 @@ html,body
     color: grey;
 }
 .button{
-    background: var(--yellow);
+    background: black;
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: var(--blue);
+    color: white;
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px var(--blue);
+    border: solid 2px grey;
 }
 .header{
     font-size: 2rem;
@@ -187,53 +188,8 @@ html,body
 .header b{
     text-align:center;
     margin: 1rem 0rem;
-    color: var(--yellow);
+    color: white;
     font-style:italic;
-}
-.warning .header h2{
-    color: white;
-    font-size: 2rem;
-    padding:1rem;
-    text-align:center;
-    margin: 1rem 0rem;
-}
-.warning{
-    background: rgba(17, 22, 120, 0.4);
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    width: 100vw;
-    height: 100%;
-    margin: 2rem 0rem;
-}
-.warning__content{
-    display:flex;
-    gap: 1rem;
-    padding: 1rem 2rem;
-}
-.warning__card{
-    margin: 1rem 1rem;
-    padding: 1rem;
-}
-.warning__card h1{
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-.warning__card p{
-    color: white;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-}
-.warning__card b{
-    color: rgb(103, 115, 201);
-    margin-bottom: 1rem;
-}
-@media screen and (max-width: 900px){
-    .warning__content{
-        flex-direction:column;
-    }
 }
 .Services{
     display:flex;
@@ -251,7 +207,7 @@ html,body
     width:30vw;
     margin:2rem 1rem;
     height: 100vh;
-    background:var(--blue);
+    background: black;
 }
 .service__img{
     width: 30vw;
@@ -309,10 +265,10 @@ html,body
     width:100%;
     height:100%;
     padding:1rem;
-    border:solid 3px var(--blue);
+    border:solid 3px white;
 }
 .services__container h1{
-    color:var(--yellow);
+    color: white;
     font-size: clamp(1.5rem, 8vw, 2.5rem);
     text-transform: uppercase;
     margin-bottom: 0.5rem;
