@@ -75,7 +75,7 @@ html,body
     color: white;
     text-decoration: none;
     padding-left: 0.5rem;
-    font-size: 1rem;
+    font-size: clamp(0.5rem, 5vw, 1rem);
 }
 .navbar__link{
     color: white;
