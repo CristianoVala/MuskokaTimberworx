@@ -118,8 +118,8 @@ html,body
     url('./images/Hero.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 90vw;
+    background-size: contain;
+    width: 100vw;
     height: 100vh;
     padding: 1rem 2rem;
     display: flex;
@@ -127,9 +127,7 @@ html,body
     justify-content:center;
     text-align:center;
     margin-top: -100px;
-    position: absolute;
-    left:50%;
-    right:50%;
+    position: fixed;
 }
 @media screen and (max-width: 768px){
     .hero{
@@ -138,7 +136,7 @@ html,body
         flex-direction:column;
         width: 100vw;
         height: 90vw;
-        position: relative;
+        background-size: cover;
     }
 }
 .hero__content{
