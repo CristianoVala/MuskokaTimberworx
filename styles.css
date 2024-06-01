@@ -120,8 +120,8 @@ html,body
     url('./images/Hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 95vw;
-    height: 50vw;
+    width: 100vw;
+    height: 70vw;
     background-position: center;
     padding: 1rem 2rem;
     display: flex;
@@ -133,7 +133,7 @@ html,body
 @media screen and (max-width: 768px){
     .hero{
         flex-direction:column;
-        height: 80vw;
+        height: 90vw;
     }
 }
 .hero__content{
