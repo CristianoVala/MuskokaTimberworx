@@ -321,7 +321,7 @@ html,body
     animation-timeline: scroll();
 }
 .container #slider-img-1{
-  background-image: url("./images/Review 1.png");
+  background-image: url("./images/Hero.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@ html,body
     margin: 0rem 1rem;
 }
 .container #slider-img-2{
-  background-image: url("./images/Review 2.png");
+  background-image: url("./images/Hero1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
