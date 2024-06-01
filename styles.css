@@ -129,6 +129,13 @@ html,body
     margin-top: -100px;
     z-index:1;
 }
+.hero__content h1{
+    font-size: clamp(3rem, 8vw, 7rem);
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
+    color: white;
+    display: block;
+}
 @media screen and (max-width: 768px){
     .hero{
         background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
@@ -138,8 +145,8 @@ html,body
         height: 90vw;
         background-size: cover;
     }
-    .hero__content{
-        display: None;
+    .hero__content h1{
+        display: none;
     }
 }
 .hero__content{
@@ -149,12 +156,6 @@ html,body
     align-items:center;
     justify-content:center;
     text-align:center;
-}
-.hero__content h1{
-    font-size: clamp(3rem, 8vw, 7rem);
-    text-transform: uppercase;
-    margin-bottom: 1rem; 
-    color: white;
 }
 .hero__content p{
     font-size: clamp(1rem, 4vw, 2.5rem);
