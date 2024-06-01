@@ -119,10 +119,11 @@ html,body
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
     url('./images/Hero.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 70vw;
+    background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    width: 90vw;
+    height: 100vh;
     padding: 1rem 2rem;
     display: flex;
     align-items:center;
@@ -133,6 +134,7 @@ html,body
 @media screen and (max-width: 768px){
     .hero{
         flex-direction:column;
+        width: 100vw;
         height: 90vw;
     }
 }
