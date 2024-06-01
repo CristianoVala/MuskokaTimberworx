@@ -117,7 +117,6 @@ html,body
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
     url('./images/Hero.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 90vw;
@@ -128,12 +127,18 @@ html,body
     justify-content:center;
     text-align:center;
     margin-top: -100px;
+    position: absolute;
+    left:50%;
+    right:50%;
 }
 @media screen and (max-width: 768px){
     .hero{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
+        url('./images/Hero.png');
         flex-direction:column;
         width: 100vw;
         height: 90vw;
+        position: relative;
     }
 }
 .hero__content{
