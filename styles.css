@@ -139,7 +139,7 @@ html,body
         background-size: cover;
     }
     .hero__content{
-        display: none;
+        display: None;
     }
 }
 .hero__content{
@@ -154,7 +154,7 @@ html,body
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
-    color: black;
+    color: white;
 }
 .hero__content p{
     font-size: clamp(1rem, 4vw, 2.5rem);
