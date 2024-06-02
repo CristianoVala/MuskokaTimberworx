@@ -331,6 +331,11 @@ html,body
     color: white;
     font-weight: normal;
 }
+@media screen and (max-width: 768px){
+    .banner__content{
+        gap: 0.5rem;
+    }
+}
 .review__container{
     position: relative;
     display: flex;
