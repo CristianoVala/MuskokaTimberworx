@@ -184,6 +184,12 @@ html,body
     padding: 1.2rem 2.2rem;
     border: solid 2px grey;
 }
+.button__hold{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
 .about__content{
     padding: 2rem 1rem;
     display: flex;
