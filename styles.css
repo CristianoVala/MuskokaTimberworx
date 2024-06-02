@@ -540,10 +540,7 @@ html,body
 }
 /* Contact page */
 .Contacts{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
-    url('./images/Hero.png');
-    background-size: cover;
-    height: 120vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
