@@ -487,6 +487,20 @@ html,body
         display:block;
     }
 }
+/* Join page */
+.Join{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
+    url('./images/Hero.png');
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
 /* Contact page */
 .Contacts{
     height: 120vh;
