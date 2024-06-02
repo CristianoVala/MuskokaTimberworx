@@ -489,9 +489,6 @@ html,body
 }
 /* Join page */
 .Join{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
-    url('./images/Hero.png');
-    background-size: cover;
     height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -503,6 +500,9 @@ html,body
 }
 /* Contact page */
 .Contacts{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
+    url('./images/Hero.png');
+    background-size: cover;
     height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -531,7 +531,7 @@ html,body
     font-size:clamp(1rem, 2.5vw, 1.5rem);
     padding: 0 1rem;
     margin-bottom: 2rem;
-    color: black;
+    color: white;
 }
 form{
     z-index: 10;
