@@ -306,6 +306,25 @@ html,body
     padding: 1rem;
     transition: 0.3s ease;
 }
+.banner{
+    background: url('./images/banner.png');
+    height: 40vh;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.banner__content{
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+}
+.banner__content h1{
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: normal;
+}
 .review__container{
     position: relative;
     display: flex;
