@@ -102,10 +102,7 @@ html,body
         transition: all 0.2s ease-in-out;
     }
     .nav__bottom{
-        flex-direction:column;
-        justify-content: right;
-        align-items: right;
-        text-align: right;
+        display: none;
     }
     .navbar__link{
         padding:10px;
