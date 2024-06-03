@@ -227,13 +227,13 @@ html,body
     align-items:center;
 }
 .saw{
-    width: 50vh;
+    width: 60vh;
     height: 30vh;
 }
 @media screen and (max-width: 768px){
     .saw{
-    width: 40vh;
-    height: 20vh;
+    width: 30vh;
+    height: 10vh;
     }
 }
 .Services{
