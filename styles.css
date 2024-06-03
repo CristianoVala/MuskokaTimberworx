@@ -101,6 +101,12 @@ html,body
         background-color: rgba(0,0,0,1);
         transition: all 0.2s ease-in-out;
     }
+    .nav__bottom{
+        flex-direction:column;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+    }
     .navbar__link{
         padding:10px;
         margin:40px;
