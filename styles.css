@@ -221,6 +221,7 @@ html,body
     font-style:italic;
 }
 .img__holder{
+    width: 100vw;
     display:flex;
     justify-content:center;
     align-items:center;
