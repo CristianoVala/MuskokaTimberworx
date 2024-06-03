@@ -141,16 +141,17 @@ html,body
     margin-bottom: 1rem; 
     color: white;
     display: block;
-    animation-timeline: scroll();
+    animation-duration: 1.5s;
+    animation-name: Slide;;
 }
-@keyframes scroll {
+@keyframes Slide{
     from {
-    bottom: 80%;
-    opacity: 1;
+        margin-top: 100%;
+        opacity: 0;
     }
-    to {
-    bottom: 20%;
-    opacity: 0;
+    to{
+        margin-top: 0%;
+        opacity: 1;
     }
 }
 @media screen and (max-width: 768px){
