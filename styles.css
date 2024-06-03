@@ -230,6 +230,12 @@ html,body
     width: 30vh;
     height: 30vh;
 }
+@media screen and (max-width: 768px){
+    .saw{
+    width: 40vh;
+    height: 20vh;
+    }
+}
 .Services{
     display:flex;
     gap: 1rem;
