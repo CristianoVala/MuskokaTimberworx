@@ -232,7 +232,7 @@ html,body
 }
 @media screen and (max-width: 768px){
     .saw{
-    width: 30vh;
+    width: 20vh;
     height: 10vh;
     }
 }
