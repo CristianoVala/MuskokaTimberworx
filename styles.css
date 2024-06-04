@@ -24,7 +24,9 @@ html,body
     text-transform: uppercase;
     background: rgba(0,0,0,0.2);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .logoimg{
     height:60px;
     width:60px;
