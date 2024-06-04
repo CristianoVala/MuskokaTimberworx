@@ -648,16 +648,16 @@ span{
 }
 .footer__top{
     background: black;
-    height: 30px;
     width: 100vw;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
+    padding: 1rem;
 }
 .footer__top p{
     color: white;
-    font-size:clamp(1rem, 4vw, 2rem);
+    font-size:clamp(1rem, 4vw, 1.5rem);
     padding: 1rem;
 }
 .footer{
