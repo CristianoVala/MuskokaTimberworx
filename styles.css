@@ -646,6 +646,20 @@ span{
     width: 50%;
     height: 90%;
 }
+.footer__top{
+    background: black;
+    height: 10px;
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.footer__top h1{
+    color:white;
+    font-size: 1rem;
+    padding: 1rem;
+}
 .footer{
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
