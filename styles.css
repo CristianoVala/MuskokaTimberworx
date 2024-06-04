@@ -655,8 +655,8 @@ span{
     align-items:center;
     text-align:center;
 }
-.footer__top h1{
-    color:white;
+.footer__top p{
+    color: white;
     font-size: 1rem;
     padding: 1rem;
 }
