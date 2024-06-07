@@ -440,9 +440,8 @@ html {
     scroll-snap-align: start;
     margin: 0rem 1rem;
 }
-
 .container .button-holder .review-button{
-  background-color: var(--blue);
+  background-color:black;
   width:15px;
   height:15px;
   border-radius:15px;
