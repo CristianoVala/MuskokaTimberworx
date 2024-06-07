@@ -405,7 +405,7 @@ html {
     animation-timeline: scroll();
 }
 .container #slider-img-1{
-  background-image: url("./images/Hero.png");
+  background-image: url("./images/custom homes.gif");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ html {
     margin: 0rem 1rem;
 }
 .container #slider-img-2{
-  background-image: url("./images/Hero1.png");
+  background-image: url("./images/boat houses.gif");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,7 +429,7 @@ html {
     margin: 0rem 1rem;
 }
 .container #slider-img-3{
-  background-image: url("./images/Review3.png");
+  background-image: url("./images/docks & decks.gif");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -440,42 +440,7 @@ html {
     scroll-snap-align: start;
     margin: 0rem 1rem;
 }
-.container #slider-img-4{
-  background-image: url("./images/Deck.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-5{
-  background-image: url("./images/Addition.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-6{
-  background-image: url("./images/Review6.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
+
 .container .button-holder .review-button{
   background-color: var(--blue);
   width:15px;
