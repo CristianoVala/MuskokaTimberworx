@@ -371,6 +371,10 @@ html {
     font-weight: normal;
 }
 @media screen and (max-width: 768px){
+    .banner{
+        height: 20vh;
+        width: 100vw;
+    }
     .banner__content{
         gap: 0.5rem;
     }
