@@ -86,7 +86,7 @@ html {
     padding: 0rem 0.5rem;
 }
 .navbar__link:hover{
-    color: black;
+    color: grey;
     text-decoration: underline;
 }
 @media screen and (max-width: 768px){
@@ -156,10 +156,10 @@ html {
 @media screen and (max-width: 768px){
     .hero{
         background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
-        url('./images/Hero.png');
+        url('./images/Hero1.png');
         flex-direction:column;
         width: 100vw;
-        height: 90vw;
+        height: auto;
         background-size: cover;
     }
     .hero__content h1{
