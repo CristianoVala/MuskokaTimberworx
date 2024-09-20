@@ -378,6 +378,12 @@ html {
     .banner__content{
         gap: 0.5rem;
     }
+    .banner__content h1{
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
+    font-weight: normal;
+}
 }
 .review__container{
     position: relative;
