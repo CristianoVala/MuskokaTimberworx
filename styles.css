@@ -370,6 +370,13 @@ html {
     color: white;
     font-weight: normal;
 }
+.banner__content p{
+    display: flex;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: normal;
+}
 @media screen and (max-width: 768px){
     .banner{
         height: 20vh;
@@ -380,6 +387,13 @@ html {
     }
     .banner__content h1{
        display: none;
+    }
+    .banner__content p{
+        display: flex;
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: white;
+        font-weight: normal;
     }
 }
 .review__container{
@@ -732,6 +746,5 @@ input [type=text], select{
     margin-right: 1rem;
     margin-bottom: 1rem;
     color: black;
-    border-radius: 2rem;
     background:white;
 }
