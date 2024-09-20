@@ -159,7 +159,7 @@ html {
         url('./images/Hero1.png');
         flex-direction:column;
         width: 100vw;
-        height: auto;
+        height: 50vh;
         background-size: cover;
     }
     .hero__content h1{
@@ -365,6 +365,7 @@ html {
     text-align:center;
 }
 .banner__content h1{
+    display: flex;
     font-size: 2rem;
     padding: 1rem;
     color: white;
@@ -379,11 +380,8 @@ html {
         gap: 0.5rem;
     }
     .banner__content h1{
-    font-size: 1rem;
-    padding: 1rem;
-    color: white;
-    font-weight: normal;
-}
+       display: none;
+    }
 }
 .review__container{
     position: relative;
