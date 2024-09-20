@@ -181,7 +181,6 @@ html {
 }
 .button{
     background: black;
-    border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
     color: white;
@@ -581,7 +580,6 @@ form{
     height: 50px;
     border: none;
     margin-right: 1rem;
-    border-radius: 2rem;
     background:white;
     color: black;
 }
@@ -590,7 +588,6 @@ span{
     margin-top: 10px;
     display: block;
     background:white;
-    border-radius: 2rem;
 }
 @media screen and (max-width: 2000px){
     .form__wrap{
