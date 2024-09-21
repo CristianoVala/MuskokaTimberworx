@@ -159,7 +159,9 @@ html {
         url('./images/Hero1.png');
         flex-direction:column;
         width: 100vw;
-        height: 50vh;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
     }
 }
