@@ -431,6 +431,7 @@ html {
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
+    height: 40vh;
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
@@ -446,6 +447,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-3{
@@ -458,6 +460,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-4{
@@ -470,6 +473,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-5{
@@ -482,6 +486,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-6{
@@ -494,6 +499,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-7{
@@ -506,6 +512,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-8{
@@ -518,6 +525,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-9{
@@ -530,6 +538,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-10{
@@ -542,6 +551,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-11{
@@ -554,6 +564,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-12{
@@ -566,6 +577,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-13{
@@ -578,6 +590,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-14{
@@ -590,6 +603,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-15{
@@ -602,6 +616,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-16{
@@ -614,6 +629,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-17{
@@ -626,6 +642,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-18{
@@ -638,6 +655,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-19{
@@ -650,6 +668,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-20{
@@ -662,6 +681,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-21{
@@ -674,6 +694,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-22{
@@ -686,6 +707,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-23{
@@ -698,6 +720,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-24{
@@ -710,6 +733,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-25{
@@ -722,6 +746,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-26{
@@ -734,6 +759,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-27{
@@ -746,6 +772,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-28{
@@ -758,6 +785,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-29{
@@ -770,6 +798,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-30{
@@ -782,6 +811,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-31{
@@ -794,6 +824,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-32{
@@ -806,6 +837,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-33{
@@ -818,6 +850,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-34{
@@ -830,6 +863,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    height: 40vh;
     margin: 0rem 1rem;
 }
 .container .button-holder .review-button{
