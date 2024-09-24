@@ -418,8 +418,8 @@ html {
 .container .wrapper-holder{
     display:grid;
     grid-template-columns: repeat(17,100%);
-    height:100%;
-    width:100%;
+    height:40vh;
+    width:40vh;
     overflow-x: auto;
     overflow-y: hidden;
     animation-timeline: scroll();
@@ -427,11 +427,10 @@ html {
 .container #slider-img-1{
   background-image: url("./images/Custom Homes/image-1.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
-    height: 40vh;
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
@@ -439,7 +438,7 @@ html {
 }
 .container #slider-img-2{
   background-image: url("./images/Custom Homes/image-2.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -447,12 +446,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-3{
   background-image: url("./images/Custom Homes/image-3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -460,12 +458,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-4{
   background-image: url("./images/Custom Homes/image-4.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -473,12 +470,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-5{
   background-image: url("./images/Custom Homes/image-5.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -486,12 +482,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-6{
   background-image: url("./images/Custom Homes/image-6.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -499,12 +494,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-7{
   background-image: url("./images/Custom Homes/image-7.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -512,12 +506,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-8{
   background-image: url("./images/Custom Homes/image-8.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -525,12 +518,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-9{
   background-image: url("./images/Custom Homes/image-9.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -538,12 +530,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-10{
   background-image: url("./images/Custom Homes/image-10.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -551,12 +542,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-11{
   background-image: url("./images/Custom Homes/image-11.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -564,12 +554,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-12{
   background-image: url("./images/Custom Homes/image-12.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -577,12 +566,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-13{
   background-image: url("./images/Custom Homes/image-13.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -590,12 +578,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-14{
   background-image: url("./images/Custom Homes/image-14.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -603,12 +590,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-15{
   background-image: url("./images/Custom Homes/image-15.PNG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -616,12 +602,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-16{
   background-image: url("./images/Custom Homes/image-16.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -629,12 +614,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-17{
   background-image: url("./images/Custom Homes/image-17.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -642,12 +626,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-18{
   background-image: url("./images/Boat Houses/image-1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -655,12 +638,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-19{
   background-image: url("./images/Boat Houses/image-2.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -668,12 +650,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-20{
   background-image: url("./images/Boat Houses/image-3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -681,12 +662,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-21{
   background-image: url("./images/Boat Houses/image-4.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -694,12 +674,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-22{
   background-image: url("./images/Boat Houses/image-5.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -707,12 +686,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-23{
   background-image: url("./images/Boat Houses/image-6.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -720,12 +698,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-24{
   background-image: url("./images/Boat Houses/image-7.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -733,12 +710,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-25{
   background-image: url("./images/Boat Houses/image-8.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -746,12 +722,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-26{
   background-image: url("./images/Boat Houses/image-9.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -759,12 +734,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-27{
   background-image: url("./images/Boat Houses/image-10.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -772,12 +746,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-28{
   background-image: url("./images/Boat Houses/image-11.PNG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -785,12 +758,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-29{
   background-image: url("./images/Docks & Decks/image-1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -798,12 +770,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-30{
   background-image: url("./images/Docks & Decks/image-2.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -811,12 +782,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-31{
   background-image: url("./images/Docks & Decks/image-3.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -824,12 +794,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-32{
   background-image: url("./images/Docks & Decks/image-4.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -837,12 +806,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-33{
   background-image: url("./images/Docks & Decks/image-5.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -850,12 +818,11 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container #slider-img-34{
   background-image: url("./images/Docks & Decks/image-6.JPG");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -863,7 +830,6 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    height: 40vh;
     margin: 0rem 1rem;
 }
 .container .button-holder .review-button{
