@@ -413,7 +413,6 @@ html {
 .container .wrapper{
   width:90vh;
   height:85vh;
-  box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
     margin: 5rem auto;
     margin-bottom: 1rem;
 }
@@ -860,7 +859,6 @@ html {
         .container .wrapper{
         width:80vw;
         height:85vw;
-        box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
         margin: 5rem auto;
      }
     .container .button-holder{
