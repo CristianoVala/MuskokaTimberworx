@@ -414,6 +414,8 @@ html {
   width:90vh;
   height:85vh;
   margin: 1rem auto;
+    justify-content:center;
+    align-items:center;
 }
 .container .wrapper-holder{
     display:grid;
