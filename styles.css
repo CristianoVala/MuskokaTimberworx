@@ -411,9 +411,10 @@ html {
   position:relative;
 }
 .container .wrapper{
-  width:90vh;
-  height:85vh;
-  margin: 1rem;
+    width:100vw;
+    height:85vh;
+    margin: 1rem;
+    display:flex;
     justify-content:center;
     align-items:center;
 }
@@ -866,12 +867,6 @@ html {
     .reviews__img{
         width:50%;
     }
-    .container .wrapper{
-        width:80vw;
-        height:85vw;
-        margin: 5rem auto;
-        margin-top:1rem;
-     }
     .container .button-holder{
         display: flex;
         justify-content:center;
