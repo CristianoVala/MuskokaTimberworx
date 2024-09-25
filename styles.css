@@ -195,8 +195,8 @@ html {
     text-align:center;
 }
 .about__content{
-    padding: clamp(0.5rem, 8vw, 4rem) 2rem;
-    margin: 0.5rem 1rem;
+    padding: 3rem 2rem;
+    margin: 3rem 1rem;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -236,6 +236,15 @@ html {
     height: 30vh;
 }
 @media screen and (max-width: 768px){
+    .about__content{
+        padding: 0.5rem 2rem;
+        margin: 0.5rem 1rem;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        background: white;
+    }
     .saw{
     width: 20vh;
     height: 10vh;
