@@ -206,6 +206,7 @@ html {
     padding: 0.5rem 2rem;
     margin: 0.5rem 1rem;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -245,6 +246,7 @@ html {
 }
 @media screen and (max-width: 768px){
     .about__content{
+        flex-direction: column;
         width: 90vw;
         padding: 0.5rem 2rem;
         margin: 0.5rem 1rem;
@@ -255,8 +257,8 @@ html {
         background: white;
     }
     .saw{
-    width: 20vh;
-    height: 10vh;
+        width: 20vh;
+        height: 10vh;
     }
 }
 .Services{
