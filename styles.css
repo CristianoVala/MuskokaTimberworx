@@ -195,7 +195,7 @@ html {
     text-align:center;
 }
 .about__content{
-    padding: 0.5rem 2rem;
+    padding: clamp(0.5rem, 8vw, 4rem) 2rem;
     margin: 0.5rem 1rem;
     display: flex;
     justify-content:center;
