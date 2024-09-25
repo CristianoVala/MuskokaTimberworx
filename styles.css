@@ -194,6 +194,13 @@ html {
     align-items:center;
     text-align:center;
 }
+.About{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    width: 100vw;
+}
 .about__content{
     width: 60vw;
     padding: 0.5rem 2rem;
