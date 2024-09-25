@@ -195,8 +195,8 @@ html {
     text-align:center;
 }
 .about__content{
-    padding: 2rem 2rem;
-    margin: 2rem 1rem;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
     display: flex;
     justify-content:center;
     align-items:center;
