@@ -212,6 +212,7 @@ html {
     align-items:center;
     text-align:center;
     background: white;
+    border: solid, black, 2px;
 }
 .about__content p{
     font-size:clamp(1rem, 4vw, 2rem);
@@ -256,6 +257,7 @@ html {
         align-items:center;
         text-align:center;
         background: white;
+         border: solid, black, 2px;
     }
     .saw{
         width: 20vh;
