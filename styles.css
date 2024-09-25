@@ -195,8 +195,9 @@ html {
     text-align:center;
 }
 .about__content{
-    padding: 3rem 2rem;
-    margin: 3rem 1rem;
+    width: 60vw;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -237,6 +238,7 @@ html {
 }
 @media screen and (max-width: 768px){
     .about__content{
+        width: 90vw;
         padding: 0.5rem 2rem;
         margin: 0.5rem 1rem;
         display: flex;
