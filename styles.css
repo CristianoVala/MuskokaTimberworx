@@ -194,30 +194,7 @@ html {
     align-items:center;
     text-align:center;
 }
-.About{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction: column;
-    text-align:center;
-    width: 100vw;
-}
-.about__content{
-    width: 60vw;
-    padding: 0.5rem 2rem;
-    margin: 0.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background: white;
-    border: solid, black, 4px;
-}
-.about__content p{
-    font-size:clamp(1rem, 4vw, 2rem);
-    color: black;
-}
+
 .header{
     font-size:clamp(1.5rem, 4vw, 2.5rem);
     padding:1rem;
@@ -242,28 +219,7 @@ html {
     justify-content:center;
     align-items:center;
 }
-.saw{
-    width: 60vh;
-    height: 30vh;
-}
-@media screen and (max-width: 768px){
-    .about__content{
-        flex-direction: column;
-        width: 90vw;
-        padding: 0.5rem 2rem;
-        margin: 0.5rem 1rem;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        background: white;
-        border: solid, black, 4px;
-    }
-    .saw{
-        width: 20vh;
-        height: 10vh;
-    }
-}
+
 .Services{
     display:flex;
     gap: 1rem;
@@ -366,58 +322,6 @@ html {
     width:250px;
     padding: 1rem;
     transition: 0.3s ease;
-}
-.banner{
-    background: url('./images/banner.jpg');
-    height: 40vh;
-    width: 100vw;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-}
-.banner__content{
-    display: flex;
-    gap: 5rem;
-    padding: 1rem;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-}
-.banner__content h1{
-    display: flex;
-    font-size: 2rem;
-    padding: 1rem;
-    color: white;
-    font-weight: normal;
-}
-.banner__content p{
-    display: flex;
-    font-size: 2rem;
-    padding: 1rem;
-    color: white;
-    font-weight: normal;
-}
-@media screen and (max-width: 768px){
-    .banner{
-        height: 20vh;
-        width: 100vw;
-    }
-    .banner__content{
-        gap: 0.5rem;
-    }
-    .banner__content h1{
-       display: none;
-    }
-    .banner__content p{
-        display: flex;
-        font-size: 1.5rem;
-        padding: 1rem;
-        color: white;
-        font-weight: normal;
-    }
 }
 .review__container{
     position: relative;
@@ -938,14 +842,12 @@ html {
 }
 /* Join page */
 .Join{
-    height: 120vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     scroll-snap-align: start;
+    padding: 1rem, 1rem;
 }
 /* Contact page */
 .Contacts{
