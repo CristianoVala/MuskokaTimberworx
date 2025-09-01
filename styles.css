@@ -213,11 +213,12 @@ html {
 
 /* Services page */
  .services-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
+     width:100vw;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     gap:2rem;
+     flex-direction:row;
     }
     .service-card {
       background: #fff;
@@ -232,13 +233,12 @@ html {
       box-shadow: 0 12px 25px rgba(0,0,0,0.15);
     }
     .service-card img {
-      width: 30rem;
-        height: 30rem;
+      width: 20vw;
+        height: 20vw;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       margin-bottom: 1rem;
-      filter: grayscale(100%);
     }
     .service-card h3 {
       font-size: 1.4rem;
@@ -267,7 +267,14 @@ html {
         background-position: center;
         background-size: cover;
       margin-bottom: 1rem;
-      filter: grayscale(100%);
+    }
+     .services-container {
+     width:100vw;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     gap:2rem;
+     flex-direction:column;
     }
 }
 .highlight{
