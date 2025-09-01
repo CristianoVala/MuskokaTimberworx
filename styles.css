@@ -51,7 +51,7 @@ html {
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0.85);
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -163,7 +163,7 @@ html {
         url('./images/Custom Homes/image-1.jpg');
         flex-direction:column;
         width: 100vw;
-        height: 60vh;
+        height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
