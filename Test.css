@@ -46,7 +46,8 @@ nav ul li a:hover {
 /* Hero */
 .hero {
   height: 100vh;
-  background: url('https://picsum.photos/id/1003/1600/900') center/cover no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.2)),
+    url('./images/Hero1.png');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,18 +121,6 @@ nav ul li a:hover {
 .service-card h3 {
   color: #c19a6b;
   margin-bottom: 1rem;
-}
-
-/* About */
-.about {
-  padding: 4rem 2rem;
-  background-color: #000;
-  text-align: center;
-}
-.about h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #c19a6b;
 }
 
 /* Contact */
