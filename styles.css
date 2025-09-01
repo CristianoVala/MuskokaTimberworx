@@ -365,473 +365,56 @@ html {
 }
 
 /* Gallery Page */
-.container{
-  position:relative;
-}
-.container .wrapper{
-  width:90vh;
-  height:85vh;
-    margin: 5rem auto;
-    margin-bottom: 1rem;
-}
-.container .wrapper-holder{
-    display:grid;
-    grid-template-columns: repeat(17,100%);
-    height:100%;
-    width:100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    animation-timeline: scroll();
-}
-.container #slider-img-1{
-  background-image: url("./images/Custom Homes/image-1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-2{
-  background-image: url("./images/Custom Homes/image-2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-3{
-  background-image: url("./images/Custom Homes/image-3.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-4{
-  background-image: url("./images/Custom Homes/image-4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-5{
-  background-image: url("./images/Custom Homes/image-5.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-6{
-  background-image: url("./images/Custom Homes/image-6.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-7{
-  background-image: url("./images/Custom Homes/image-7.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-8{
-  background-image: url("./images/Custom Homes/image-8.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-9{
-  background-image: url("./images/Custom Homes/image-9.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-10{
-  background-image: url("./images/Custom Homes/image-10.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-11{
-  background-image: url("./images/Custom Homes/image-11.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-12{
-  background-image: url("./images/Custom Homes/image-12.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-13{
-  background-image: url("./images/Custom Homes/image-13.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-14{
-  background-image: url("./images/Custom Homes/image-14.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-15{
-  background-image: url("./images/Custom Homes/image-15.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-16{
-  background-image: url("./images/Custom Homes/image-16.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-17{
-  background-image: url("./images/Custom Homes/image-17.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-18{
-  background-image: url("./images/Boat Houses/image-1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-19{
-  background-image: url("./images/Boat Houses/image-2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-20{
-  background-image: url("./images/Boat Houses/image-3.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-21{
-  background-image: url("./images/Boat Houses/image-4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-22{
-  background-image: url("./images/Boat Houses/image-5.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-23{
-  background-image: url("./images/Boat Houses/image-6.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-24{
-  background-image: url("./images/Boat Houses/image-7.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-25{
-  background-image: url("./images/Boat Houses/image-8.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-26{
-  background-image: url("./images/Boat Houses/image-9.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-27{
-  background-image: url("./images/Boat Houses/image-10.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-28{
-  background-image: url("./images/Boat Houses/image-11.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-29{
-  background-image: url("./images/Docks & Decks/image-1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-30{
-  background-image: url("./images/Docks & Decks/image-2.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-31{
-  background-image: url("./images/Docks & Decks/image-3.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-32{
-  background-image: url("./images/Docks & Decks/image-4.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-33{
-  background-image: url("./images/Docks & Decks/image-5.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container #slider-img-34{
-  background-image: url("./images/Docks & Decks/image-6.JPG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    margin: 0rem 1rem;
-}
-.container .button-holder .review-button{
-  background-color:black;
-  width:15px;
-  height:15px;
-  border-radius:15px;
-  display:inline-block;
-  margin:.3rem;
-}
-.container .button-holder{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom: 5%;
-    margin-top:-1%;
-    gap: 0.5rem;
-}
-@media screen and (max-width: 820px) {
-    .container .wrapper{
-        width:80vw;
-        height:85vw;
-        margin: 5rem auto;
-     }
-    .container .button-holder{
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        margin-bottom: 5%;
-        margin-top:-1%;
-        gap: 0.5rem;
+ .slider {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      display: flex;
+      scroll-behavior: smooth;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
-}
+
+    .slider img {
+      flex: 0 0 100%;
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+      scroll-snap-align: center;
+    }
+
+    /* Arrows */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      font-size: 2rem;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 50%;
+      text-decoration: none;
+      z-index: 10;
+    }
+
+    .arrow:hover {
+      background: rgba(0,0,0,0.8);
+    }
+
+    .arrow.left {
+      left: 10px;
+    }
+
+    .arrow.right {
+      right: 10px;
+    }
 .buttonCenter{
     display:flex;
     align-items:center;
     justify-content:center;
-}
-.Gallery{
-    padding: 1rem;
-    margin-bottom: 1rem;
-    margin-top:1rem;
-    position: relative;
 }
 
 /* Join page */
