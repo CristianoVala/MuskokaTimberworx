@@ -443,6 +443,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    flex-direction: column;
 }
 .email__content{
     animation-duration: 1.5s;
