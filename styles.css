@@ -219,6 +219,7 @@ html {
      justify-content:center;
      gap:2rem;
      flex-direction:row;
+     padding: 1rem;
     }
     .service-card {
       background: #fff;
@@ -275,6 +276,7 @@ html {
      justify-content:center;
      gap:2rem;
      flex-direction:column;
+     padding: 1rem;
     }
 }
 .highlight{
