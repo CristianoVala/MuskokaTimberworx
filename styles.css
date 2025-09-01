@@ -367,7 +367,8 @@ html {
 /* Gallery Page */
 .Gallery{
     width: 100vw;
-    height: 80vh;
+    display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     padding: 1rem;
@@ -414,7 +415,7 @@ html {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.1);
       color: white;
       font-size: 2rem;
       padding: 12px 16px;
@@ -426,7 +427,7 @@ html {
     }
 
     .arrow:hover {
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.2);
     }
 
     /* Position arrows relative to gallery edges */
