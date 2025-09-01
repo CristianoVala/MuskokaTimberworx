@@ -365,6 +365,13 @@ html {
 }
 
 /* Gallery Page */
+.Gallery{
+    width: 100vw;
+    height: 80vh;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem;
+}
  .slider {
       position: relative;
       width: 600px;
