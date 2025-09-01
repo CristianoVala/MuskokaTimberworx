@@ -230,7 +230,7 @@ html {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .service-card:hover {
-        background: black;
+      background: black;
       transform: translateY(-6px);
       box-shadow: 0 12px 25px rgba(0,0,0,0.15);
     }
@@ -244,18 +244,18 @@ html {
     }
     .service-card h3 {
       font-size: 1.4rem;
-      color: #fff;
+      color: white;
       margin-bottom: 0.5rem;
     }
     .service-card p {
       font-size: 1rem;
-      color: #fff;
+      color: white;
       margin: 0;
     }
 @media screen and (max-width: 900px){
   .service-card {
       width: 90vw;
-      background: #fff;
+      background: #2a2a2a;
       border-radius: 16px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       padding: 2rem;
