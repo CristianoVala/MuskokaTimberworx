@@ -222,7 +222,7 @@ html {
      padding: 1rem;
     }
     .service-card {
-      background: #fff;
+      background: #2a2a2a;
       border-radius: 16px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       padding: 2rem;
@@ -230,6 +230,7 @@ html {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .service-card:hover {
+        background: #fff;
       transform: translateY(-6px);
       box-shadow: 0 12px 25px rgba(0,0,0,0.15);
     }
