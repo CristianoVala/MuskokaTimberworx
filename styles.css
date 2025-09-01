@@ -315,52 +315,43 @@ html {
 }
 
 /* Reviews Page */
-.review__container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    flex-direction:column;
-}
-.reviews__img{
-    padding:1rem;
-    width:20%;
-}
-.review-button:hover{
-  box-shadow:0px 0px 7px 4px rgba(0,0,0,0.6);
-}
-.Reviews{
-    width:100vw;
-    margin-top: 2rem;
-    margin-botton: 2rem;
-    padding:1rem;
+.Testimonials{
+     width:100vw;
     display:flex;
     justify-content:center;
     align-items:center;
-    flex-direction:column;
+    flex-direction: row;
+    gap:2rem;
 }
-.Review__img{
-    width:80vw;
-    padding:1rem;
-    margin-top:1rem;
-    display:block;
+.review{
+    width: 4rem;
+    padding: 1rem;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
 }
-.Review__img2{
-    width:80vw;
-    padding:1rem;
-    margin-top:1rem;
-    display:none;
+.review p{
+    font-size: 1.5rem;
 }
-@media screen and (max-width: 820px) {
-    .reviews__img{
-        width:50%;
+@media screen and (max-width: 900px){
+    .Testimonials{
+         width:100vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        gap:2rem;
     }
-     .Review__img{
-        display: none;
-    }
-    .Review__img2{
-        display:block;
+    .review{
+        width: 90vw;
+        padding: 1rem;
+        color: black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
     }
 }
 
