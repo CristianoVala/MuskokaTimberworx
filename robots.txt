@@ -2,4 +2,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: muskokatimberworx.ca/sitemap.xml
+Sitemap: https://muskokatimberworx.ca/sitemap.xml
+
