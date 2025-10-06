@@ -56,7 +56,7 @@
         </div>
   <div class="slider-container reveal">
        <a class="arrow left" id="prev">&#10094;</a>
-    <div class="slider" id="slider">
+    <div class="slider">
       <img id="img1" src="./images/Custom Homes/image-1.jpg" alt="Image 1">
       <img id="img2" src="./images/Custom Homes/image-2.png" alt="Image 2">
       <img id="img3" src="./images/Custom Homes/image-3.jpg" alt="Image 3">
@@ -82,7 +82,7 @@
         </div>
   <div class="slider-container reveal">
       <a class="arrow left" id="prev">&#10094;</a>
-    <div class="slider" id="slider">
+    <div class="slider">
       <img id="img18" src="./images/Boat Houses/image-1.jpg" alt="Image 1">
       <img id="img19" src="./images/Boat Houses/image-2.jpg" alt="Image 2">
       <img id="img20" src="./images/Boat Houses/image-3.jpg" alt="Image 3">
@@ -102,7 +102,7 @@
         </div>
   <div class="slider-container reveal">
       <a class="arrow left" id="prev">&#10094;</a>
-    <div class="slider" id="slider">
+    <div class="slider">
       <img id="img29" src="./images/Docks & Decks/image-1.jpg" alt="Image 1">
       <img id="img30" src="./images/Docks & Decks/image-2.JPG" alt="Image 2">
       <img id="img31" src="./images/Docks & Decks/image-3.JPG" alt="Image 3">
@@ -112,21 +112,29 @@
     </div>
     <a class="arrow right" id="next">&#10095;</a>
   </div>
-        <script>
-             slider = document.getElementById('slider');
-             next = document.getElementById('next');
-             prev = document.getElementById('prev');
+    <script>
+        // Find all slider containers
+        const galleries = document.querySelectorAll('.slider-container');
 
-             slideWidth = slider.clientWidth;
+        galleries.forEach(container => {
+          const slider = container.querySelector('.slider');
+          const next = container.querySelector('.arrow.right');
+          const prev = container.querySelector('.arrow.left');
 
-            next.addEventListener('click', () => {
-              slider.scrollBy({ left: slideWidth, behavior: 'smooth' });
-            });
+          // Function to get dynamic width (for responsive)
+         function getSlideWidth() {
+         return slider.clientWidth;
+          }
 
-            prev.addEventListener('click', () => {
-              slider.scrollBy({ left: -slideWidth, behavior: 'smooth' });
-            });
-        </script>
+          next.addEventListener('click', () => {
+            slider.scrollBy({ left: getSlideWidth(), behavior: 'smooth' });
+          });
+
+          prev.addEventListener('click', () => {
+            slider.scrollBy({ left: -getSlideWidth(), behavior: 'smooth' });
+          });
+        });
+  </script>
     </div>
 
     <!--Testimonials-->
