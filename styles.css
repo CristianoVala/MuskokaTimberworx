@@ -530,6 +530,18 @@ span{
 /* -------------------------
    FOOTER LAYOUT + BASE STYLE
 -------------------------- */
+.footer__top{
+    padding: 1rem;
+    background: black;
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer__top p{
+    color: white;
+    font-size: 1.7rem;
+}
 .footer {
     background: #222;
     color: #fff;
